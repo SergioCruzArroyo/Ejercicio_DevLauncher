@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio DevLauncher</title>
+    <link rel="shortcut icon" href="Favocin_Morado.webp" type="image/x-icon">
+    <style>
+        div {
+            margin-top: 10px;
+        }
+
+        button {
+            margin-top: 10px;
+            background-color: rgb(170, 8, 8);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Hardware</h1>
+
+    <h2>La guerra del hardware</h2>
+
+    <p>La elección entre <b>AMD</b> e <b>Intel</b> depende principalmente del uso previsto, ya que ambas marcas ofrecen
+        opciones de alto rendimiento con enfoques distintos. Intel destaca por su arquitectura híbrida (núcleos de
+        rendimiento y eficiencia) y suele ofrecer mayor velocidad en tareas de un solo núcleo y mejor rendimiento en
+        aplicaciones de productividad y creación de contenido paralelizadas, como renderizado 3D en Blender o edición de
+        video.
+    </p>
+
+    <p>
+        Por otro lado, AMD lidera en gaming gracias a su <b>tecnología 3D V-Cache (series X3D)</b>, que proporciona
+        tasas de fotogramas más altas y estables, y ofrece una mejor eficiencia energética (rendimiento por vatio) y
+        menor consumo en muchos escenarios.
+    </p>
+
+    <img src="https://cdn.shopify.com/s/files/1/0738/1499/9346/files/1200-675-21.jpg?v=1750468973" height="600px"
+        width="900px" alt="imagen AMD vs Intel">
+
+    <div>
+        <ul>
+            <li>
+                <a href="https://www.intel.la/content/www/xl/es/homepage.html" target="_blank">Más sobre Intel</a>
+            </li>
+            <li>
+                <a href="https://www.amd.com/es.html" target="_blank">Más sobre AMD</a>
+            </li>
+        </ul>
+    </div>
+
+    <form method="dialog" onsubmit="alert ('Enviado')">
+        <div>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" placeholder="Ingresa tu nombre" required>
+        </div>
+        <div>
+            <label for="Email">Email:</label>
+            <input type="email" id="email" placeholder="Ingresa tu correo" required>
+        </div>
+
+        <div>
+            <label for="Marca de Procesador">Tu favorita:</label>
+            <select id="Marcas de Procesador">
+                <option value="">Elije una opcion</option>
+                <option value="Intel">Intel</option>
+                <option value="AMD">AMD</option>
+            </select>
+        </div>
+
+        <button type="submit">Enviar</button>
+
+    </form>
+
+</html>
