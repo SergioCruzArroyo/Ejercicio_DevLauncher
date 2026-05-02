@@ -1,0 +1,17 @@
+/* unidades: px em, rem, vh y vw */
+h1 {
+    font-size: 50px;
+}
+
+body {
+    margin: 0;
+    margin-bottom: 400px;
+}
+
+img {
+    width: 100vw;
+}
+
+div {
+    margin-top: 12px;
+}
