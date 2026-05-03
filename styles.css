@@ -6,6 +6,12 @@ h1 {
 body {
     margin: 0;
     margin-bottom: 400px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: blanchedalmond;
+}
+
+p {
+    color: blue;
 }
 
 img {
@@ -14,4 +20,18 @@ img {
 
 div {
     margin-top: 12px;
+}
+
+/* Selector de id */
+#La-guerra {
+    color: rgb(255, 0, 0);
+}
+
+#AMD {
+    color: blueviolet;
+}
+
+/* Selector de clase */
+.grande-bolt {
+    font-size: bolt;
 }
