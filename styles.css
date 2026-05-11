@@ -48,4 +48,25 @@ ol {
     font-weight: bold;
 }
 
-/*  */
+/*Cómo cambiar el tamaño de los contenedores
+Margi y padding
+Bordes y su radio
+Border-box
+Sombras
+Variables  */
+.caja-1 {
+    width: 300px;
+    height: 200px;
+    background-color: rgb(70, 43, 226);
+    border: 3px solid white;
+    /* Funcion basica de un modelo de caja */
+    text-align: start;
+    /* padding: [valor vertical] [valor horizontal]*/
+    padding: 20px 10px;
+    margin: auto;
+    border-radius: 10px;
+    /* Ayuda a respetar el tamaño de la caja*/
+    box-sizing: border-box;
+    /* Agrega sombreado a las cajas usando de 3 a 4 valores */
+    box-shadow:  8px 8px 12px rgba(255, 255, 255, 0.26);
+}
