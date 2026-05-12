@@ -1,7 +1,12 @@
+/* variables */
+:root {
+    --color-texto-especial: rgb(255, 250, 250);
+}
+
 /* unidades: px em, rem, vh y vw */
 h1 {
     font-size: 50px;
-    color: blueviolet;
+    color: var();
 }
 
 body {
@@ -13,7 +18,7 @@ body {
 }
 
 p {
-    color: blue;
+    color: var(--color-texto-especial);
 }
 
 img {
@@ -29,21 +34,21 @@ div {
 ul,
 ol {
     text-align: start;
-    color: blueviolet;
+    color: var(--color-texto-especial);
 }
 
 /* Selector de id */
 #La-guerra {
-    color: rgb(255, 0, 0);
+    color: blue;
 }
 
 #AMD {
-    color: blueviolet;
+    color: red;
 }
 
 /* Selector de clases */
 .grande-bolt {
-    color: red;
+    color: blue;
     font-size: 20px;
     font-weight: bold;
 }
@@ -68,5 +73,5 @@ Variables  */
     /* Ayuda a respetar el tamaño de la caja*/
     box-sizing: border-box;
     /* Agrega sombreado a las cajas usando de 3 a 4 valores */
-    box-shadow:  8px 8px 12px rgba(255, 255, 255, 0.26);
+    box-shadow: 8px 8px 12px rgba(255, 255, 255, 0.26);
 }
